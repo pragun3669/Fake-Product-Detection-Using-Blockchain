@@ -1,53 +1,42 @@
-# Dream-Killers-Fake-Product-Detection-using-Blockchain-application
-We team DreamKillers are presenting prototype of our project titled "Product Counterfeiting Detection Using Blockchain Based Application", It is an Blockchain based application for detecting Counterfeited products in the B2C supply chain which will benefit businesses in terms of growth, reputation, trust and to customers in getting genuine products in hand.
+# Fake Product Detection Using Blockchain
 
-# Prerequisites
-You should have metamask, and Ganache setup already
+This project is a **Blockchain-based Product Verification System** designed to detect counterfeit products in the B2C supply chain.  
+By leveraging the immutability and transparency of the Ethereum blockchain, it ensures that each product can be verified as genuine, benefiting both manufacturers (in terms of brand trust and transparency) and consumers (in ensuring authenticity).
 
-Installing
-A step by step series of examples that tell you how to get a development env running.
+---
 
-Cloning the repo
+## 🚀 Features
 
-$ git clone https://github.com/AltafMShaikh/Dream-Killers-Fake-Product-Detection-using-Blockchain-application.git
-Installing the dependencies
+- Secure **on-chain registration** of products using unique identifiers and cryptographic hashes.
+- Real-time **verification of authenticity** by scanning or entering product details.
+- **Tamper-proof product data** stored on the Ethereum blockchain.
+- Decentralized validation — no central authority required.
+- **Transparent audit trail** of product history from manufacturer to end customer.
 
-$ npm install
+---
 
-Migrate
+## 🧠 Tech Stack
 
-$ truffle migrate --reset
+### **Blockchain**
+- **Ethereum** – Decentralized blockchain network
+- **Solidity** – Smart contract language
+- **Truffle** – Development & testing framework for Ethereum
+- **Ganache** – Local Ethereum blockchain for development & testing
 
-Running the server
+### **Web Application**
+- **React.js** – Frontend framework
+- **Web3.js** – Connects frontend with Ethereum blockchain
+- **Metamask** – Wallet integration for transactions
+- **CSS / Bootstrap** – UI styling and responsive design
 
-change repo to client-cd client
+---
 
-$ npm install 
+## ⚙️ Prerequisites
 
-$ npm run dev
+Before you begin, ensure the following are installed:
+- **Node.js** and **npm**
+- **Truffle Suite**
+- **Ganache** (for local blockchain)
+- **Metamask** browser extension
 
-Running the tests
-
-$ truffle test
-# Technology Stack
-Blockchain:
-
-Ethereum - Blockchain Network
-
-Solidity - Smart Contracts
-
-Truffle - development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM)
-
-Ganache - Create private Ethereum blockchain to run tests
-
-Web App:
-
-Metamask - A crypto wallet & gateway to blockchain apps
-
-Web3.js - collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket
-
-React - For designing user interface
-
-CSS - Style Sheet Language
-
-Bootstrap - Templating
+---
